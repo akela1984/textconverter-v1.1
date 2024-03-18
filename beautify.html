@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0Q0L1YYED4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-0Q0L1YYED4");
+    </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <!-- Google -->
+    <meta
+      itemprop="name"
+      content="Convert text case, Generate random Color, Generate Lorem Ipsum generate QR code - Web Developer best tool"
+    />
+    <meta
+      itemprop="description"
+      content="Convert text case, Generate random Color, Generate Lorem Ipsum generate QR code - Web Developer best tool"
+    />
+    <meta itemprop="image" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An online tool to convert text to uppercase, lowercase, and title case. Fast, easy and free to use."
+    />
+    <meta
+      name="keywords"
+      content="case converter, uppercase, lowercase, title case, text converter, online tool"
+    />
+    <meta name="author" content="TextConverter" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Convert text case, Generate random Color, Generate Lorem Ipsum generate QR code - Web Developer best tool"
+    />
+    <meta
+      name="twitter:description"
+      content="An online tool to convert text to uppercase, lowercase, and title case. Fast, easy and free to use."
+    />
+    <meta name="twitter:image" content="" />
+
+    <!-- Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Convert text case, Generate random Color, Generate Lorem Ipsum generate QR code - Web Developer best tool"
+    />
+    <meta name="apple-touch-icon" content="" />
+
+    <!-- Facebook -->
+    <meta property="og:title" content="[Page Title]" />
+    <meta
+      property="og:description"
+      content="An online tool to convert text to uppercase, lowercase, and title case. Fast, easy and free to use."
+    />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Textconverter" />
+    <meta property="og:type" content="website" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7451119341261729"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Textconverter</title>
+  </head>
+  <nav class="navbar sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">TextconveЯter</a>
+    </div>
+    <div class="dark-mode-switch">
+      <input type="checkbox" id="darkModeToggle" />
+      <label for="darkModeToggle"></label>
+    </div>
+  </nav>
+
+    <body>
+
+        
+        <div class="container main-container">
+            <div class="card text-center">
+                <div class="card-header">
+
+                        <ul class="nav nav-pills card-header-pills justify-content-center">
+                          <li class="nav-item">
+                            <a class="btn btn-outline-primary m-1" href="index.html"
+                              >Convert Case</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="btn btn-outline-primary m-1" href="lorem_ipsum.html"
+                              >Lorem Ipsum</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="btn btn-outline-primary m-1" href="randomcolor.html"
+                              >Random Color</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="btn btn-outline-primary m-1" href="gradientcolor.html"
+                              >Random Gradient</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="btn btn-outline-primary m-1 active" href="beautify.html"
+                              >HTML Beautify</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="btn btn-outline-primary m-1" href="qrcode.html"
+                              >Generate QR</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+               <div class="container main-container">
+                <div class="card-body">
+                    <form name="inputTextareaForm">
+                        <h1>HTML Beautify</h1>
+                        <textarea id="inputTextarea" placeholder="Type or paste your content here..." autofocus="" spellcheck="false" name="inputTextarea" onkeyup="countChars(this);"></textarea>
+                    </form>
+                    <!-- HTML code beautifier will be inserted here -->
+                    <div class="beautifier-container">
+                        <h2>Beautified HTML:</h2>
+                        <textarea id="outputTextarea" placeholder="Beautified HTML will appear here..." readonly></textarea>
+                        <button class="btn btn-outline-success m-1" onclick="beautify()">Beautify</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+        
+        <div class="fixed-bottom sticky-footer">
+            <strong>TextconveЯter 2013 - 2024</strong>
+            <div class="footer-details">Release 01.10 Build 17/03/2024 &nbsp;</div>
+        </div>
+        
+
+<script>
+  
+
+// Function to toggle dark mode
+function toggleDarkMode() {
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  const body = document.body;
+  const cardBody = document.querySelector('.card-body');
+  
+  // Check if there's a stored preference for dark mode
+  const isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+  if (isDarkMode) {
+    darkModeToggle.checked = true;
+    body.classList.add('dark-mode');
+    cardBody.classList.add('dark-mode');
+  } else {
+    darkModeToggle.checked = false;
+    body.classList.remove('dark-mode');
+    cardBody.classList.remove('dark-mode');
+  }
+
+  // Listen for changes in the dark mode toggle button
+  darkModeToggle.addEventListener('change', () => {
+    if (darkModeToggle.checked) {
+      localStorage.setItem('darkMode', 'true');
+      body.classList.add('dark-mode');
+      cardBody.classList.add('dark-mode');
+    } else {
+      localStorage.setItem('darkMode', 'false');
+      body.classList.remove('dark-mode');
+      cardBody.classList.remove('dark-mode');
+    }
+  });
+}
+
+// Call the function to toggle dark mode
+toggleDarkMode();
+
+</script>
+<script>
+    function beautify() {
+        var input = document.getElementById('inputTextarea').value;
+        var output = document.getElementById('outputTextarea');
+        
+        var beautifiedCode = formatHTML(input);
+        output.value = beautifiedCode;
+    }
+
+    // Function to format HTML code
+    function formatHTML(html) {
+        var tab = '    '; // 4 spaces for indentation
+        var result = '';
+        var indentLevel = 0;
+
+        // Check if the input is empty
+        if (html.trim() === '') {
+            return ''; // Return empty string if input is empty
+        }
+
+        var elements = html.split(/>\s*</);
+        var lastElementIndex = elements.length - 1;
+
+        elements.forEach(function(element, index) {
+            if (index === 0) {
+                // Remove the first '<'
+                element = element.replace(/^\s*</, '');
+            } else if (index === lastElementIndex) {
+                // Remove the last '>'
+                element = element.replace(/\s*>$/, '');
+            }
+
+            if (element.match(/^\/\w/)) {
+                indentLevel--;
+            }
+
+            result += '\n' + tab.repeat(Math.max(0, indentLevel)) + '<' + element.trim();
+
+            if (element.match(/^<?\w[^>]*[^/]$/) && !element.endsWith('/') && !element.endsWith('>')) {
+                indentLevel++;
+            }
+
+            // Close the tag with '>'
+            if (!element.endsWith('/')) {
+                result += '>';
+            }
+        });
+
+        return result.trim(); // Remove leading newline and trim extra whitespace
+    }
+</script>
+
+
+
+  </body>
+</html>
